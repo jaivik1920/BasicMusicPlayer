@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#b5bdbe;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.searchcontainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 800px;
+    /* border:2px solid red; */
+}
+.searchcontainer input{
+    outline: none;
+    height: 30px;
+    font-size: 25px;
+    border:2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    width:fit-content;
+}
+.fa-search{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.fa-search:hover{
+    color: grey;
+}
+
+#searchSong{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    justify-content: flex-start;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.imgcontainer{
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.imgcontainer img{
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+
+}
+.imgcontainer img:hover{
+    box-shadow: 0px 13px 10px -8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05,1.05);
+
+}
+
+.imgcontainer progress{
+    margin-top: 6px;
+    width: 300px;
+}
+#timemanager{
+    font-size: 20px;
+    position: relative;
+    left: 260px;
+}
+
+
+.iconcontainer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.fa-music{
+    color: rgb(230, 2, 230);
+    font-size: 60px;
+}
+.fa-backward{
+    font-size: 30px;
+    cursor: pointer;
+}
+.fa-backward:hover{
+    color: grey;
+}
+.fa-play{
+    font-size: 30px;
+    cursor: pointer;
+}
+.fa-play:hover{
+    color: grey;
+}
+.fa-pause{
+    font-size: 30px;
+    cursor: pointer;  
+}
+.fa-pause:hover{
+    color: grey;
+}
+.fa-forward{
+    font-size: 30px;
+    cursor: pointer;
+}
+.fa-forward:hover{
+    color: rgb(145, 138, 138);
+}
